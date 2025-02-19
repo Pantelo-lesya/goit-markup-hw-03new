@@ -132,6 +132,7 @@ color: #404bbf;
 .information{
 padding-top: 120px;
 padding-bottom: 120px;
+padding: 188px 0;
 }
 
 .title {
@@ -178,10 +179,6 @@ padding-bottom: 120px;
 background-color: #F4F4FD;
 }
 
-.team {
-padding: 188px 0;
-}
-
 .caption-list{
 display: flex;
 gap: 24px;
@@ -219,7 +216,7 @@ color: #434455;
 /* section team */
 
 .container-foto {
-padding: 32 px 0;
+padding: 32px 0;
 }
 
 .team {
@@ -275,13 +272,17 @@ padding: 32px 32px;
 }
 
 .title_items_portfolio{
-border: 1px solid #e7e9fc
+border: 1px solid #e7e9fc;
+margin-bottom: 48px;
+}
+
+.title_items_portfolio_fast {
+    margin-bottom: 0;
 }
 
 .portfolio_title {
 display: flex;
 flex-wrap: wrap;
-row-gap: 48px;
 gap: 24px;
 }
 
