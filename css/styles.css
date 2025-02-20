@@ -129,9 +129,12 @@ color: #404bbf;
 
 /* section information */
 
-.information{
+.information {
 padding-top: 120px;
 padding-bottom: 120px;
+}
+
+.container-information {
 padding: 188px 0;
 }
 
@@ -215,7 +218,7 @@ color: #434455;
 
 /* section team */
 
-.container-foto {
+.description {
 padding: 32px 0;
 }
 
@@ -258,9 +261,15 @@ background-color: #FFFFFF;
 
 .headline-list-item {
 border-radius: 0 0 4px 4px;
+width: calc((100% - 3 * 24px) / 4);
 }
 
 /* section portfolio  */
+
+.container-portfolio {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+}
 
 .portfolio {
 padding-top: 120px;
@@ -271,9 +280,10 @@ padding-bottom: 120px;
 padding: 32px 32px;
 }
 
-.title_items_portfolio{
+.title_items_portfolio {
 border: 1px solid #e7e9fc;
 margin-bottom: 48px;
+width: calc((100% - 48px) / 3);
 }
 
 .title_items_portfolio_fast {
@@ -283,7 +293,8 @@ margin-bottom: 48px;
 .portfolio_title {
 display: flex;
 flex-wrap: wrap;
-gap: 24px;
+column-gap: 24px;
+row-gap: 48px;
 }
 
 .subject {
